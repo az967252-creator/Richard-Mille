@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richard Mille | Masterpiece of Innovation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,400;1,6..96,500&family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Splash Screen Overlay -->
+    <div id="splashScreen" class="splash-screen">
+        <div class="splash-content">
+            <h1 class="splash-logo">RICHARD MILLE</h1>
+            <div class="splash-tagline" id="splashTagline">MASTERPIECE OF INNOVATION</div>
+            <button class="enter-btn btn btn-primary" id="enterBtn">ENTER THE MANUFACTURE</button>
+        </div>
+    </div>
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <!-- Symmetrical Split Navigation -->
+            <nav class="nav nav-left">
+                <ul class="nav-list">
+                    <li><a href="#collections" class="nav-link">COLLECTIONS</a></li>
+                    <li><a href="#timepieces" class="nav-link">TIMEPIECES</a></li>
+                </ul>
+            </nav>
+
+            <a href="#" class="logo">RICHARD MILLE</a>
+
+            <nav class="nav nav-right">
+                <ul class="nav-list">
+                    <li><a href="#heritage" class="nav-link">HERITAGE</a></li>
+                    <li><a href="#boutiques" class="nav-link">BOUTIQUES</a></li>
+                    <li><a href="#contact" class="nav-link">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <!-- Consolidated Mobile Menu -->
+            <div class="mobile-menu" id="mobileMenu">
+                <ul class="mobile-nav-list">
+                    <li><a href="#collections" class="nav-link">COLLECTIONS</a></li>
+                    <li><a href="#timepieces" class="nav-link">TIMEPIECES</a></li>
+                    <li><a href="#heritage" class="nav-link">HERITAGE</a></li>
+                    <li><a href="#boutiques" class="nav-link">BOUTIQUES</a></li>
+                    <li><a href="#contact" class="nav-link">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section with Video -->
+    <section class="hero" id="hero">
+        <div class="hero-video-container">
+            <video class="hero-video" muted playsinline preload="auto" id="heroVideo">
+                <source src="node_modules\mat\hero.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">MASTERPIECE OF INNOVATION</h1>
+            <p class="hero-subtitle">Where Haute Horlogerie Meets Cutting-Edge Technology</p>
+            <a href="#collections" class="btn btn-primary">DISCOVER THE COLLECTION</a>
+        </div>
+        <div class="hero-watch-name" id="heroWatchName">
+            <span class="watch-label">FEATURED</span>
+            <h2 class="watch-title">RM 012</h2>
+            <p class="watch-subtitle">Extra Flat Automatic</p>
+            <p class="watch-price-display">From CHF 145,000</p>
+        </div>
+        <div class="scroll-indicator">
+            <span>SCROLL</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Collections Section - Horizontal Carousel -->
+    <section class="collections" id="collections">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-label">EXCEPTIONAL CREATIONS</span>
+                <h2 class="section-title">THE COLLECTION</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <!-- Horizontal Card Carousel -->
+            <div class="carousel-container">
+                <div class="carousel-track" id="carouselTrack">
+                    <!-- Card 1: RM 11-03 -->
+                    <div class="carousel-card active" data-index="0">
+                        <div class="card-inner">
+                            <div class="card-background"></div>
+                            <div class="card-image">
+                                <img src="https://www.my-watchsite.com/25345-large_default/rm-11-03-flyback-chronograph.jpg"
+                                    alt="RM 11-03">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-label">Flyback Chronograph</span>
+                                <h3 class="card-title">RM 11-03</h3>
+                                <p class="card-subtitle">Automatic Winding</p>
+                                <span class="card-price">From CHF 195,000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2: RM 67-02 -->
+                    <div class="carousel-card" data-index="1">
+                        <div class="card-inner">
+                            <div class="card-background"></div>
+                            <div class="card-image">
+                                <img src="http://italianwatchspotter.com/wp-content/uploads/2020/03/03-Introduction-of-Richard-Mille.jpg"
+                                    alt="RM 67-02">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-label">Extra Flat</span>
+                                <h3 class="card-title">RM 67-02</h3>
+                                <p class="card-subtitle">Automatic Winding</p>
+                                <span class="card-price">From CHF 145,000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3: RM 35-03 -->
+                    <div class="carousel-card" data-index="2">
+                        <div class="card-inner">
+                            <div class="card-background"></div>
+                            <div class="card-image">
+                                <img src="https://k2luxury.ch/watches/wp-content/uploads/2025/11/rm27-05-2-3.jpg"
+                                    alt="RM 35-03">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-label">Rafael Nadal</span>
+                                <h3 class="card-title">RM 35-03</h3>
+                                <p class="card-subtitle">Butterfly Rotor</p>
+                                <span class="card-price">From CHF 220,000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 4: RM 65-01 -->
+                    <div class="carousel-card" data-index="3">
+                        <div class="card-inner">
+                            <div class="card-background"></div>
+                            <div class="card-image">
+                                <img src="data:image/jpeg;base64,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"
+                                    alt="RM 65-01">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-label">Split-Seconds</span>
+                                <h3 class="card-title">RM 65-01</h3>
+                                <p class="card-subtitle">Automatic Chronograph</p>
+                                <span class="card-price">From CHF 305,000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 5: RM 27-04 -->
+                    <div class="carousel-card" data-index="4">
+                        <div class="card-inner">
+                            <div class="card-background"></div>
+                            <div class="card-image">
+                                <img src="https://www.watchinsanity.it/wp-content/uploads/2024/05/Richard_Mille_RM_2705_Flying_Tourbillon_Rafael_Nadal_Watch_Insanity_08.jpg"
+                                    alt="RM 27-04">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-label">Tourbillon</span>
+                                <h3 class="card-title">RM 27-04</h3>
+                                <p class="card-subtitle">Rafael Nadal Ed.</p>
+                                <span class="card-price">From CHF 1,050,000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 6: RM 40-01 -->
+                    <div class="carousel-card" data-index="5">
+                        <div class="card-inner">
+                            <div class="card-background"></div>
+                            <div class="card-image">
+                                <img src="https://monochrome-watches.com/app/uploads/2021/07/Richard-Mille-RM-40-01-Automatic-Winding-Tourbillon-McLaren-Speedtail-review-6-2048x1364.jpg"
+                                    alt="RM 40-01">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-label">Speedtail</span>
+                                <h3 class="card-title">RM 40-01</h3>
+                                <p class="card-subtitle">Automatic Tourbillon</p>
+                                <span class="card-price">From CHF 900,000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 7: RM 88 -->
+                    <div class="carousel-card" data-index="6">
+                        <div class="card-inner">
+                            <div class="card-background"></div>
+                            <div class="card-image">
+                                <img src="https://manofmany.com/_next/image?url=https%3A%2F%2Fapi.manofmany.com%2Fwp-content%2Fuploads%2F2022%2F10%2FRichard-Mille-RM-88-Tourbillon-Smiley-1.jpg&w=1200&q=75"
+                                    alt="RM 88">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-label">Smiley</span>
+                                <h3 class="card-title">RM 88</h3>
+                                <p class="card-subtitle">Automatic Tourbillon</p>
+                                <span class="card-price">From CHF 1,100,000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 8: RM 30-01 -->
+                    <div class="carousel-card" data-index="7">
+                        <div class="card-inner">
+                            <div class="card-background"></div>
+                            <div class="card-image">
+                                <img src="https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2023/09/22/47e8c99b-c32d-4d04-b1fb-8c3b37ec11db_ddf41731.jpg"
+                                    alt="RM 30-01">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-label">Declutchable Rotor</span>
+                                <h3 class="card-title">RM 30-01</h3>
+                                <p class="card-subtitle">Automatic Winding</p>
+                                <span class="card-price">From CHF 205,000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev" id="prevBtn">←</button>
+                    <button class="carousel-btn next" id="nextBtn">→</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mechanical Masterpiece: Technical Excellence -->
+    <section class="timepieces technical-masterpiece" id="timepieces">
+        <div class="container">
+            <div class="masterpiece-layout fade-in">
+                <!-- Master Chassis Content -->
+                <div class="master-chassis">
+                    <div class="chassis-layers">
+                        <div class="layer layer-1"></div>
+                        <div class="layer layer-2"></div>
+                        <div class="layer layer-3"></div>
+                    </div>
+
+                    <div class="chassis-content">
+                        <span class="section-label brand-accent">HOROLOGICAL PRECISION</span>
+                        <h2 class="section-title">ENGINEERING MARVELS</h2>
+
+                        <div class="calibration-readout">
+                            <span class="spec-id">RM-ENG // 50.0MM</span>
+                            <div class="spec-bar">
+                                <div class="spec-progress"></div>
+                            </div>
+                        </div>
+
+                        <p class="masterpiece-description italic">
+                            "A racing machine on the wrist."
+                        </p>
+                        <p class="masterpiece-description">
+                            The Richard Mille casing is a pinnacle of manufacturing complexity.
+                            Each component is machined from solid titanium or carbon TPT blocks,
+                            requiring hundreds of hours of precision engineering.
+                        </p>
+
+                        <ul class="advanced-feature-list">
+                            <li>
+                                <div class="gear-icon-small"></div>
+                                <span>Triple-deck movement architecture</span>
+                            </li>
+                            <li>
+                                <div class="gear-icon-small"></div>
+                                <span>High-frequency oscillator // 4Hz</span>
+                            </li>
+                            <li>
+                                <div class="gear-icon-small"></div>
+                                <span>Aerospace-grade synchronization</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Gear-Inspired Visual -->
+                <div class="gear-visual">
+                    <div class="gear-teeth-container pulse-border">
+                        <!-- Luxury Status Banner -->
+                        <div class="video-status-banner">
+                            <div class="banner-glass"></div>
+                            <div class="banner-label">
+                                <span class="label-main">RM CALIBRE PERFORMANCE</span>
+                                <span class="label-divider">//</span>
+                                <span class="label-sub">CHASSIS: TITANIUM G5</span>
+                            </div>
+                            <div class="banner-status">
+                                <div class="status-pulse"></div>
+                                <span class="status-text">ACTIVE</span>
+                            </div>
+                        </div>
+
+                        <div class="gear-video-mask">
+                            <video class="gear-video" autoplay muted playsinline>
+                                <source
+                                    src="node_modules\mat\AI Enhancer-AI UHD-grok-video-88bfe70c-272d-4769-8851-7bef45ba8f89 (1).mp4"
+                                    type="video/mp4">
+                            </video>
+                        </div>
+
+                        <!-- Decorative Precision Elements -->
+                        <div class="precision-specs">
+                            <div class="spec-item">CAL_RMS: 28,000 VPH</div>
+                            <div class="spec-item">TILT_Z: +2.5°</div>
+                        </div>
+
+                        <div class="micro-gear rotating-gear gear-1"></div>
+                        <div class="micro-gear rotating-gear gear-2"></div>
+                    </div>
+
+                    <!-- Calibration Markings -->
+                    <div class="calibration-marks">
+                        <div class="mark m-1"></div>
+                        <div class="mark m-2"></div>
+                        <div class="mark m-3"></div>
+                        <div class="mark m-4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Heritage Section -->
+    <section class="heritage" id="heritage">
+        <div class="container">
+            <div class="heritage-architecture">
+                <!-- Immersive Heritage Plate -->
+                <div class="heritage-plate-wrapper fade-in">
+                    <div class="heritage-plate">
+                        <div class="plate-layers">
+                            <div class="plate-glass"></div>
+                            <div class="plate-glow"></div>
+                        </div>
+                        <img src="node_modules\mat\images\NanoBanana-2026-03-11 (1).png" alt="Richard Mille Heritage"
+                            class="heritage-image-main">
+
+                        <!-- Manufacturing Data Overlays -->
+                        <div class="manufacturing-data">
+                            <div class="data-coord">47.2514° N, 7.0428° E</div>
+                            <div class="data-location">LES BREULEUX, SWITZERLAND</div>
+                        </div>
+
+                        <div class="est-marking">EST. 1999</div>
+                    </div>
+
+                    <!-- Vertical Timeline Axis -->
+                    <div class="heritage-axis">
+                        <div class="axis-line"></div>
+                        <div class="axis-point"></div>
+                    </div>
+                </div>
+
+                <!-- Modern Story Content -->
+                <div class="heritage-story-card fade-in">
+                    <div class="story-chassis">
+                        <span class="section-label brand-accent">OUR LEGACY</span>
+                        <h2 class="section-title">A NEW ERA OF ElEGANCE<br><span
+                                class="title-emphasize">WATCHMAKING</span></h2>
+
+                        <div class="story-body">
+                            <p>
+                                Founded in 1999, Richard Mille revolutionized the watchmaking industry by
+                                combining traditional craftsmanship with avant-garde materials and modern
+                                engineering.
+                            </p>
+                            <p>
+                                Every watch that leaves our manufacture in Les Breuleux represents the
+                                culmination of years of research and uncompromising attention to detail.
+                            </p>
+                        </div>
+
+                        <div class="story-footer">
+                            <div class="heritage-spec">
+                                <span class="spec-label">RESEARCH PHASE</span>
+                                <div class="spec-value">36 MONTHS MINIMUM</div>
+                            </div>
+                            <a href="#" class="btn btn-outline">DISCOVER THE CALIBRES</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Boutiques Section -->
+    <section class="boutiques" id="boutiques">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-label">LOCATE AN EXCLUSIVE ATELIER</span>
+                <h2 class="section-title">OUR GLOBAL PRESENCE</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <!-- Elite Boutique Showcase Grid -->
+            <!-- Elite Boutique Identity Showcase -->
+            <div class="boutiques-grid identity-layout">
+                <!-- Paris -->
+                <div class="boutique-showcase-card fade-in" data-country="FRA">
+                    <div class="identity-bar-accent"></div>
+                    <div class="card-inner">
+                        <div class="card-header">
+                            <div class="header-left">
+                                <span class="city-abbr">PAR</span>
+                                <span class="city-coords">48.8672° N, 2.3294° E</span>
+                            </div>
+                            <div class="city-time-wrapper">
+                                <span class="time-label">LOCAL TIME</span>
+                                <span class="current-time" data-timezone="Europe/Paris">--:--:--</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="city-name serif-text">Paris</h3>
+                            <p class="city-boutique-title">Place Vendôme</p>
+                            <div class="country-watermark">FRANCE</div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="explore-btn">EXPLORE DESTINATION <svg width="16" height="16"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7" />
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- New York -->
+                <div class="boutique-showcase-card fade-in" data-country="USA">
+                    <div class="identity-bar-accent"></div>
+                    <div class="card-inner">
+                        <div class="card-header">
+                            <div class="header-left">
+                                <span class="city-abbr">NYC</span>
+                                <span class="city-coords">40.7590° N, 73.9763° W</span>
+                            </div>
+                            <div class="city-time-wrapper">
+                                <span class="time-label">LOCAL TIME</span>
+                                <span class="current-time" data-timezone="America/New_York">--:--:--</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="city-name serif-text">New York</h3>
+                            <p class="city-boutique-title">Fifth Avenue</p>
+                            <div class="country-watermark">UNITED STATES</div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="explore-btn">EXPLORE DESTINATION <svg width="16" height="16"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7" />
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Geneva -->
+                <div class="boutique-showcase-card fade-in" data-country="CHE">
+                    <div class="identity-bar-accent"></div>
+                    <div class="card-inner">
+                        <div class="card-header">
+                            <div class="header-left">
+                                <span class="city-abbr">GVA</span>
+                                <span class="city-coords">46.2044° N, 6.1432° E</span>
+                            </div>
+                            <div class="city-time-wrapper">
+                                <span class="time-label">LOCAL TIME</span>
+                                <span class="current-time" data-timezone="Europe/Zurich">--:--:--</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="city-name serif-text">Geneva</h3>
+                            <p class="city-boutique-title">Rue du Rhône</p>
+                            <div class="country-watermark">SWITZERLAND</div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="explore-btn">EXPLORE DESTINATION <svg width="16" height="16"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7" />
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dubai -->
+                <div class="boutique-showcase-card fade-in" data-country="ARE">
+                    <div class="identity-bar-accent"></div>
+                    <div class="card-inner">
+                        <div class="card-header">
+                            <div class="header-left">
+                                <span class="city-abbr">DXB</span>
+                                <span class="city-coords">25.1972° N, 55.2744° E</span>
+                            </div>
+                            <div class="city-time-wrapper">
+                                <span class="time-label">LOCAL TIME</span>
+                                <span class="current-time" data-timezone="Asia/Dubai">--:--:--</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="city-name serif-text">Dubai</h3>
+                            <p class="city-boutique-title">The Dubai Mall</p>
+                            <div class="country-watermark">UNITED ARAB EMIRATES</div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="explore-btn">EXPLORE DESTINATION <svg width="16" height="16"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7" />
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Horological Identity Newsletter (Hyper-Technical Enhancement) -->
+    <section class="newsletter-identity-hub" id="contact">
+        <!-- Technical Overlays -->
+        <div class="scanline-overlay"></div>
+        <div class="watermark-container parallax-layer" data-speed="-0.1">
+            <h2 class="technical-watermark">SUBSCRIPTION</h2>
+        </div>
+
+        <div class="container relative-z">
+            <div class="newsletter-identity-content fade-in">
+                <div class="newsletter-identity-header">
+                    <div class="technical-markings-top">
+                        <span class="m-left">REF: RM-01-ID</span>
+                        <span class="m-divider"></span>
+                        <span class="m-right">SYNC: 28800 VPH</span>
+                    </div>
+                    <span class="technical-label">SYNCHRONIZED PERSPECTIVE</span>
+                    <h2 class="newsletter-main-title serif-text">Newsletter</h2>
+                    <p class="newsletter-identity-tagline">Access the inner circle of Richard Mille innovation.</p>
+                    <div class="tagline-divider"></div>
+                </div>
+
+                <div class="form-wrapper-unified">
+                    <div class="identity-accent-bar"></div>
+                    <form class="form-glass-module">
+                        <div class="inner-module-layout">
+                            <input type="email" placeholder="COMMUNICATION@RICHARDMILLE.COM" class="identity-input"
+                                required>
+                            <button type="submit" class="identity-submit">
+                                DISCOVER
+                                <span class="btn-arrow"></span>
+                            </button>
+                        </div>
+                    </form>
+                    <div class="module-technical-data">
+                        <span>CALIBRE: RM-SUBS</span>
+                        <span class="data-divider">|</span>
+                        <span>STATUS: SYNC_ACTIVE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">RICHARD MILLE</a>
+                    <p class="footer-tagline">Where Haute Horlogerie meets cutting-edge technology. A racing machine on
+                        the wrist.</p>
+                    <div class="footer-technical-coords">
+                        47.2514° N, 7.0428° E // MANUFACTURE LES BREULEUX
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>COLLECTIONS</h4>
+                        <ul>
+                            <li><a href="#">RM 11</a></li>
+                            <li><a href="#">RM 07</a></li>
+                            <li><a href="#">RM 35</a></li>
+                            <li><a href="#">RM 67</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>BRAND</h4>
+                        <ul>
+                            <li><a href="#">Heritage</a></li>
+                            <li><a href="#">Craftsmanship</a></li>
+                            <li><a href="#">Innovation</a></li>
+                            <li><a href="#">Sustainability</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>CONTACT</h4>
+                        <ul>
+                            <li><a href="#">Find a Boutique</a></li>
+                            <li><a href="#">Service Center</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Press</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="YouTube">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.42a2.78 2.78 0 0 0-1.94 2C1 8.11 1 12 1 12s0 3.89.46 5.58a2.78 2.78 0 0 0 1.94 2c1.72.42 8.6.42 8.6.42s6.88 0 8.6-.42a2.78 2.78 0 0 0 1.94-2C23 15.89 23 12 23 12s0-3.89-.46-5.58z">
+                            </path>
+                            <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"></polygon>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="copyright-box">
+                    <p class="copyright">© 2024 Richard Mille. All rights reserved.</p>
+                    <p class="manufacture-stamp">ENGINEERED IN SWITZERLAND</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
